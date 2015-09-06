@@ -1,0 +1,10 @@
+# histogram of number of files modified per commit (impactful commits)
+p: Project = input;
+impact : output collection[string] of int;
+visit(p, visitor {
+    
+    before rev: Revision -> {
+        impact[formattime("%c", rev.commit_date)] << len(rev.files);
+    }
+    
+});
