@@ -1,7 +1,16 @@
 {
-  "name": "impactful commit",
-  "version": "0.0.1",
-  "author": "Nitin Mukesh Tiwari",
+  "name": "impactful-commits",
+  "productName": "Impactful Commits",
+  "version": "0.1.0",
+  "author": "Nitin Mukesh Tiwari <nmtiwari@iastate.edu>",
   "description": "Lists commits that involved a large number of files.",
-  "main": "main.html"
+  "main": "main.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candoia/impactful-commits"
+  },
+  "icon": {
+	"type": "fa",
+	"name": "pi-chart"
+  }
 }
